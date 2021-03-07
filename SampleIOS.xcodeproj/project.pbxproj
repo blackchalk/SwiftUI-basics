@@ -14,6 +14,7 @@
 		4E40597A25DD4A2E0029B3AC /* SampleIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E40597925DD4A2E0029B3AC /* SampleIOSTests.swift */; };
 		4E40598525DD4A2E0029B3AC /* SampleIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E40598425DD4A2E0029B3AC /* SampleIOSUITests.swift */; };
 		4EE32E9625F4BA0200140CB7 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE32E9525F4BA0200140CB7 /* CircleImage.swift */; };
+		4EE32E9B25F4BD1A00140CB7 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE32E9A25F4BD1A00140CB7 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4E40598425DD4A2E0029B3AC /* SampleIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleIOSUITests.swift; sourceTree = "<group>"; };
 		4E40598625DD4A2E0029B3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EE32E9525F4BA0200140CB7 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		4EE32E9A25F4BD1A00140CB7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +79,6 @@
 		4E40595B25DD4A2C0029B3AC = {
 			isa = PBXGroup;
 			children = (
-				4EE32E9525F4BA0200140CB7 /* CircleImage.swift */,
 				4E40596625DD4A2C0029B3AC /* SampleIOS */,
 				4E40597825DD4A2E0029B3AC /* SampleIOSTests */,
 				4E40598325DD4A2E0029B3AC /* SampleIOSUITests */,
@@ -98,11 +99,13 @@
 		4E40596625DD4A2C0029B3AC /* SampleIOS */ = {
 			isa = PBXGroup;
 			children = (
+				4EE32E9525F4BA0200140CB7 /* CircleImage.swift */,
 				4E40596725DD4A2C0029B3AC /* SampleIOSApp.swift */,
 				4E40596925DD4A2C0029B3AC /* ContentView.swift */,
 				4E40596B25DD4A2E0029B3AC /* Assets.xcassets */,
 				4E40597025DD4A2E0029B3AC /* Info.plist */,
 				4E40596D25DD4A2E0029B3AC /* Preview Content */,
+				4EE32E9A25F4BD1A00140CB7 /* MapView.swift */,
 			);
 			path = SampleIOS;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E40596A25DD4A2C0029B3AC /* ContentView.swift in Sources */,
+				4EE32E9B25F4BD1A00140CB7 /* MapView.swift in Sources */,
 				4E40596825DD4A2C0029B3AC /* SampleIOSApp.swift in Sources */,
 				4EE32E9625F4BA0200140CB7 /* CircleImage.swift in Sources */,
 			);
