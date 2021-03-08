@@ -27,6 +27,13 @@ struct LandmarkList: View {
 
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
+        ForEach(["iPhone SE (2nd generation)", "iPhone XS Max"], id: \.self) { deviceName in
         LandmarkList()
+            // By default, previews render at the size of the device in the active scheme. You can change
+            // the preview device by calling the previewDevice(_:) modifier method.
+            .previewDevice(PreviewDevice(rawValue: deviceName))
+            // Use the previewDisplayName(_:) modifier to add the device names as labels for the previews.
+            .previewDisplayName(deviceName)
+        }
     }
 }
