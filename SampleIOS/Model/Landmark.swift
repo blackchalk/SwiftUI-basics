@@ -9,12 +9,13 @@ import Foundation
 import SwiftUI
 import CoreLocation
 
-struct Landmark: Hashable,Codable, Identifiable {
+struct Landmark: Hashable, Codable, Identifiable {
     var id: Int
     var name: String
     var park: String
     var state: String
     var description: String
+    var isFavorite: Bool
     
     // You make the property private because users of the Landmarks structure care only about the image itself.
     private var imageName: String
@@ -31,7 +32,7 @@ struct Landmark: Hashable,Codable, Identifiable {
             longitude: coordinates.longitude)
     }
     // Add a coordinates property to the structure using a nested Coordinates type that reflects the storage in the JSON data structure.
-    struct Coordinates: Hashable,Codable {
+    struct Coordinates: Hashable, Codable {
         var latitude: Double
         var longitude: Double
     }
