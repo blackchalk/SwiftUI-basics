@@ -99,9 +99,8 @@
 		4E40596625DD4A2C0029B3AC /* SampleIOS */ = {
 			isa = PBXGroup;
 			children = (
-				4EE32E9525F4BA0200140CB7 /* CircleImage.swift */,
+				4EE32EA225F4C32000140CB7 /* Detail */,
 				4E40596725DD4A2C0029B3AC /* SampleIOSApp.swift */,
-				4E40596925DD4A2C0029B3AC /* ContentView.swift */,
 				4E40596B25DD4A2E0029B3AC /* Assets.xcassets */,
 				4E40597025DD4A2E0029B3AC /* Info.plist */,
 				4E40596D25DD4A2E0029B3AC /* Preview Content */,
@@ -134,6 +133,15 @@
 				4E40598625DD4A2E0029B3AC /* Info.plist */,
 			);
 			path = SampleIOSUITests;
+			sourceTree = "<group>";
+		};
+		4EE32EA225F4C32000140CB7 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				4EE32E9525F4BA0200140CB7 /* CircleImage.swift */,
+				4E40596925DD4A2C0029B3AC /* ContentView.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
