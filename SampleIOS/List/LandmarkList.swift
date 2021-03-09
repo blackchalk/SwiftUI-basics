@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct LandmarkList: View {
+    @EnvironmentObject var modelData: ModelData
     @State private var showFavoritesOnly = false
     
     var filteredLandmarks: [Landmark] {
-        landmarks.filter { landmark in
+        modelData.landmarks.filter { landmark in
             (!showFavoritesOnly || landmark.isFavorite)
         }
     }
@@ -48,6 +49,9 @@ struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
 //        ForEach(["iPhone SE (2nd generation)", "iPhone XS Max"], id: \.self) { deviceName in
         LandmarkList()
+            //The modelData property gets its value automatically,
+            // as long as the environmentObject(_:) modifier has been applied to a parent.
+            .environmentObject(ModelData())
 //            // By default, previews render at the size of the device in the active scheme. You can change
 //            // the preview device by calling the previewDevice(_:) modifier method.
 //            .previewDevice(PreviewDevice(rawValue: deviceName))
