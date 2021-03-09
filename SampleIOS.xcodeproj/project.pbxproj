@@ -172,11 +172,11 @@
 		4EE32EA225F4C32000140CB7 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				4E52648C25F6FAC4004042FB /* FavoriteButton.swift */,
 				4EE32E9A25F4BD1A00140CB7 /* MapView.swift */,
 				4EE32E9525F4BA0200140CB7 /* CircleImage.swift */,
 				4E40596925DD4A2C0029B3AC /* ContentView.swift */,
 				4E52647825F60E9D004042FB /* LandmarkDetail.swift */,
-				4E52648C25F6FAC4004042FB /* FavoriteButton.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
