@@ -36,9 +36,9 @@ struct LandmarkList: View {
             ForEach(filteredLandmarks) { landmark in
                 // Inside the list’s closure, wrap the returned row in a NavigationLink, specifying the LandmarkDetail view as the destination.
                 NavigationLink(destination: LandmarkDetail(landmark: landmark)){
-                    LandmarkRow(landmark: landmark)
+                        LandmarkRow(landmark: landmark)
+                    }
                 }
-            }
             }
             .navigationTitle("Landmarks")
         }
