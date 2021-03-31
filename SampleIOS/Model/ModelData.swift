@@ -19,6 +19,10 @@ final class ModelData: ObservableObject{
             by: { $0.category.rawValue }
         )
     }
+    // add a new computed features array, which contains only the landmarks that have isFeatured set to true.
+    var features: [Landmark] {
+        landmarks.filter { $0.isFeatured }
+    }
 }
 
 
