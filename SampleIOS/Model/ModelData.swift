@@ -9,6 +9,7 @@ import Foundation
 import Combine
 
 final class ModelData: ObservableObject{
+    @Published var profile = Profile.default
     @Published var landmarks: [Landmark] = load("landmarkData.json")
     var hikes: [Hike] = load("hikeData.json")
     
