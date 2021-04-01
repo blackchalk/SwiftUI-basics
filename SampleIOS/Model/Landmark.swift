@@ -36,6 +36,10 @@ struct Landmark: Hashable, Codable, Identifiable {
         Image(imageName)
     }
     
+    var featureImage: Image? {
+        isFeatured ? Image(imageName + "_feature") : nil
+    }
+    
     private var coordinates: Coordinates
     
     // Compute a locationCoordinate property that’s useful for interacting with the MapKit framework.
