@@ -7,11 +7,21 @@
 
 import SwiftUI
 
+/**
+ To prepare for adding a custom UIPageControl, you need a way to track the current page from within PageView.
+
+ To do this, you’ll declare a @State property in PageView, and pass a binding to this property down to the PageViewController view. The PageViewController updates the binding to match the visible page.
+ */
+
 struct PageView<Page: View>: View {
     var pages: [Page]
+    @State private var currentPage = 0
 
     var body: some View {
-        PageViewController(pages: pages)
+        VStack {
+            PageViewController(pages: pages, currentPage: $currentPage)
+            Text("Current Page: \(currentPage)")
+        }
     }
 }
 
