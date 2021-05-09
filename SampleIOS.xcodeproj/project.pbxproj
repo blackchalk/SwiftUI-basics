@@ -44,6 +44,7 @@
 		4EE5C89D26158C6C00CA8C6E /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5C89C26158C6C00CA8C6E /* PageViewController.swift */; };
 		4EE5C8A526158F4100CA8C6E /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5C8A426158F4100CA8C6E /* FeatureCard.swift */; };
 		4EE5C8AA2615900800CA8C6E /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5C8A92615900800CA8C6E /* PageView.swift */; };
+		F05FF4A22648058F003BF36B /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05FF4A12648058F003BF36B /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,7 @@
 		4EE5C89C26158C6C00CA8C6E /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		4EE5C8A426158F4100CA8C6E /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		4EE5C8A92615900800CA8C6E /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		F05FF4A12648058F003BF36B /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +261,7 @@
 				4E52648C25F6FAC4004042FB /* FavoriteButton.swift */,
 				4EE32E9A25F4BD1A00140CB7 /* MapView.swift */,
 				4EE32E9525F4BA0200140CB7 /* CircleImage.swift */,
+				F05FF4A12648058F003BF36B /* PageControl.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -444,6 +447,7 @@
 				4EE32E9B25F4BD1A00140CB7 /* MapView.swift in Sources */,
 				4EA2168D260D6C580066F993 /* GraphCapsule.swift in Sources */,
 				4E40596825DD4A2C0029B3AC /* SampleIOSApp.swift in Sources */,
+				F05FF4A22648058F003BF36B /* PageControl.swift in Sources */,
 				4E52648D25F6FAC4004042FB /* FavoriteButton.swift in Sources */,
 				4E21193626103D6C00641210 /* CategoryItem.swift in Sources */,
 				4EA2168F260D6C580066F993 /* HikeDetail.swift in Sources */,
