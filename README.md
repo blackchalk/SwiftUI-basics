@@ -1,5 +1,5 @@
 # SwiftUI-basics
-!["Try the tutorial"](https://developer.apple.com/tutorials/swiftui/)
+[Try the tutorial](https://developer.apple.com/tutorials/swiftui/)
 
 # HOME
 <img src="https://github.com/blackchalk/SwiftUI-basics/blob/main/screenshot/Simulator%20Screen%20Shot%20-%20iPhone%2012%20Pro%20Max%20-%202021-05-09%20at%2020.23.16.png?raw=true" width="350" height="800">
